@@ -21,7 +21,7 @@ const Contact = () => {
     // Create mailto link with form data
     const subject = encodeURIComponent(`Portfolio Inquiry from ${formData.name}`);
     const body = encodeURIComponent(`Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`);
-    window.location.href = `mailto:contact@manish.dev?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:themanishchandel@gmail.com?subject=${subject}&body=${body}`;
     
     toast({
       title: "Opening email client...",
@@ -117,14 +117,14 @@ const Contact = () => {
             className="flex flex-wrap justify-center gap-6 mt-12"
           >
             <a 
-              href="mailto:contact@manish.dev" 
+              href="mailto:themanishchandel@gmail.com" 
               className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors"
             >
               <Mail className="w-5 h-5" />
-              <span>contact@manish.dev</span>
+              <span>themanishchandel@gmail.com</span>
             </a>
             <a 
-              href="#" 
+              href="#contact" 
               className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors"
             >
               <MessageSquare className="w-5 h-5" />
