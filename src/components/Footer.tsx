@@ -2,10 +2,7 @@ import { motion } from "framer-motion";
 import { Github, Linkedin, Twitter, Dribbble } from "lucide-react";
 
 const socialLinks = [
-  { icon: Github, href: "#", label: "GitHub" },
-  { icon: Linkedin, href: "#", label: "LinkedIn" },
-  { icon: Twitter, href: "#", label: "Twitter" },
-  { icon: Dribbble, href: "#", label: "Dribbble" },
+  { icon: Linkedin, href: "https://in.linkedin.com/in/chandel-manish", label: "LinkedIn" },
 ];
 
 const Footer = () => {
