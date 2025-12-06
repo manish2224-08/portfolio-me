@@ -100,7 +100,7 @@ const projects = [
     description: "Portfolio and service website for an entertainment professional showcasing talent and offerings.",
     tech: ["Entertainment"],
     url: "https://www.kimberlyramirezentertainment.com/",
-    category: "Wix",
+    category: "wix",
   },
   {
     title: "Audience Intelligence Asia",
@@ -142,7 +142,7 @@ const projects = [
     description: "Wix Studio website for a team or community-based project portfolio.",
     tech: ["Community"],
     url: "https://team52999.wixstudio.com/my-site/",
-    category: "Wix",
+    category: "wix",
   },
   {
     title: "Inspired ADUS",
@@ -191,14 +191,14 @@ const projects = [
     description: "Restaurant and food service website showcasing Middle Eastern cuisine with menus, locations, and delivery options.",
     tech: ["Restaurant"],
     url: "https://www.eatlebab.com/",
-    category: "Wix",
+    category: "wix",
   },
   {
     title: "The Bakery",
     description: "Modern Australian bakery website offering pastries, cakes, and catering services with a stylish presentation.",
     tech: ["Bakery", "Food & Beverage"],
     url: "https://www.thebakery.com.au/",
-    category: "Wix",
+    category: "wix",
   }
 ];
 
