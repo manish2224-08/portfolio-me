@@ -33,7 +33,7 @@ const Contact = () => {
     <section id="contact" className="py-32 relative" ref={ref}>
       {/* Background */}
       <div className="absolute inset-0 bg-gradient-to-t from-primary/[0.03] to-transparent" />
-      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[600px] h-[600px] bg-primary/5 rounded-full blur-3xl" />
+      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 h-[600px] bg-primary/5 rounded-full blur-3xl" />
       
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-4xl mx-auto">
