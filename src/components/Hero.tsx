@@ -92,8 +92,8 @@ const Hero = () => {
           >
             {[
               { value: "6+", label: "Years Experience" },
-              { value: "50+", label: "Projects Completed" },
-              { value: "30+", label: "Happy Clients" },
+              { value: "500+", label: "Projects Completed" },
+              { value: "150+", label: "Happy Clients" },
             ].map((stat, index) => (
               <div key={index} className="text-center">
                 <div className="text-4xl md:text-5xl font-display font-bold text-gradient">{stat.value}</div>
@@ -104,7 +104,7 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Scroll Indicator */}
+      {/* Scroll Indicator 
       <motion.a
         href="#about"
         initial={{ opacity: 0 }}
@@ -119,7 +119,7 @@ const Hero = () => {
         >
           <ArrowDown size={20} />
         </motion.div>
-      </motion.a>
+      </motion.a> */}
     </section>
   );
 };
