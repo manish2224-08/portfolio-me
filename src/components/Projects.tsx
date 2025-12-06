@@ -110,13 +110,6 @@ const projects = [
     category: "WordPress",
   },
   {
-    title: "Chocobar",
-    description: "E-commerce chocolate brand offering premium artisan chocolate products.",
-    tech: ["eCommerce"],
-    url: "https://chocobar.ca/",
-    category: "Shopify",
-  },
-  {
     title: "Hancock Homes",
     description: "Real estate website for showcasing premium residential properties.",
     tech: ["Real Estate"],
