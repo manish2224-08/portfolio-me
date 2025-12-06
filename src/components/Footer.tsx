@@ -13,7 +13,7 @@ const Footer = () => {
           {/* Logo & Copyright */}
           <div className="flex flex-col md:flex-row items-center gap-4 md:gap-8">
             <a href="#" className="text-xl font-display font-bold">
-              Manish<span className="text-gradient">.</span>
+              Manish Chandel<span className="text-gradient">.</span>
             </a>
             <p className="text-muted-foreground text-sm">
               © {new Date().getFullYear()} Manish Chandel. All rights reserved.
