@@ -66,36 +66,36 @@ const Navbar = () => {
       </div>
 
       {/* Mobile Nav */}
-      <AnimatePresence>
-        {isMobileOpen && (
-          <motion.nav
-            initial={{ opacity: 0, height: 0 }}
-            animate={{ opacity: 1, height: "auto" }}
-            exit={{ opacity: 0, height: 0 }}
-            className="md:hidden glass mt-4 mx-6 rounded-2xl overflow-hidden"
+<AnimatePresence>
+  {isMobileOpen && (
+    <motion.nav
+      initial={{ opacity: 0, scaleY: 0 }}
+      animate={{ opacity: 1, scaleY: 1 }}
+      exit={{ opacity: 0, scaleY: 0 }}
+      className="md:hidden origin-top glass mt-4 mx-6 rounded-2xl overflow-hidden"
+    >
+      <div className="flex flex-col p-6 gap-4">
+        {navLinks.map((link) => (
+          <a
+            key={link.name}
+            href={link.href}
+            onClick={() => setIsMobileOpen(false)}
+            className="text-foreground hover:text-primary transition-colors py-2"
           >
-            <div className="flex flex-col p-6 gap-4">
-              {navLinks.map((link) => (
-                <a
-                  key={link.name}
-                  href={link.href}
-                  onClick={() => setIsMobileOpen(false)}
-                  className="text-foreground hover:text-primary transition-colors py-2"
-                >
-                  {link.name}
-                </a>
-              ))}
-              <a
-                href="/#contact"
-                onClick={() => setIsMobileOpen(false)}
-                className="px-5 py-3 bg-primary text-primary-foreground rounded-full text-sm font-semibold text-center mt-2"
-              >
-                Let's Talk
-              </a>
-            </div>
-          </motion.nav>
-        )}
-      </AnimatePresence>
+            {link.name}
+          </a>
+        ))}
+        <a
+          href="/#contact"
+          onClick={() => setIsMobileOpen(false)}
+          className="px-5 py-3 bg-primary text-primary-foreground rounded-full text-sm font-semibold text-center mt-2"
+        >
+          Let's Talk
+        </a>
+      </div>
+    </motion.nav>
+  )}
+</AnimatePresence>
     </motion.header>
   );
 };
