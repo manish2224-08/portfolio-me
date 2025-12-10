@@ -179,6 +179,7 @@
   .skill-flex{
   justify-content: center;
   }
+  #skills{text-align:center;}
 
   @keyframes floating {
     0%, 100% { transform: translateY(0px); }
