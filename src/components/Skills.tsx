@@ -55,7 +55,7 @@ const Skills = () => {
               <h3 className="text-lg font-display font-semibold mb-6 text-muted-foreground">
                 {category.title}
               </h3>
-              <div className="flex flex-wrap gap-3">
+              <div className="flex skill-flex flex-wrap gap-3">
                 {category.skills.map((skill, skillIndex) => (
                   <motion.span
                     key={skillIndex}
