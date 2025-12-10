@@ -176,6 +176,9 @@
   .floating-slow {
     animation: floating 8s ease-in-out infinite;
   }
+  .skill-flex{
+  justify-content: center;
+  }
 
   @keyframes floating {
     0%, 100% { transform: translateY(0px); }
