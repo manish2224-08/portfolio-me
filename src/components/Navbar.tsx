@@ -3,10 +3,10 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 
 const navLinks = [
-  { name: "About", href: "#about" },
-  { name: "Skills", href: "#skills" },
-  { name: "Projects", href: "#projects" },
-  { name: "Contact", href: "#contact" },
+  { name: "About", href: "/#about" },
+  { name: "Skills", href: "/#skills" },
+  { name: "Projects", href: "/#projects" },
+  { name: "Contact", href: "/#contact" },
 ];
 
 const Navbar = () => {
@@ -47,7 +47,7 @@ const Navbar = () => {
             </a>
           ))}
           <motion.a
-            href="#contact"
+            href="/#contact"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="px-5 py-2.5 bg-primary text-primary-foreground rounded-full text-sm font-semibold transition-all hover:shadow-lg"
@@ -86,7 +86,7 @@ const Navbar = () => {
                 </a>
               ))}
               <a
-                href="#contact"
+                href="/#contact"
                 onClick={() => setIsMobileOpen(false)}
                 className="px-5 py-3 bg-primary text-primary-foreground rounded-full text-sm font-semibold text-center mt-2"
               >
