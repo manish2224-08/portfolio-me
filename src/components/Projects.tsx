@@ -193,13 +193,6 @@ const projects = [
     url: "https://www.eatlebab.com/",
     category: "wix",
   },
-//   {
-//   title: "Whole Therapy",
-//   description: "A wellness and physiotherapy clinic website offering holistic treatment services.",
-//   tech: ["Webflow", "Wellness"],
-//   url: "https://www.wholetherapy.ca/",
-//   category: "Webflow",
-// },
   {
     title: "The Bakery",
     description: "Modern Australian bakery website offering pastries, cakes, and catering services with a stylish presentation.",
