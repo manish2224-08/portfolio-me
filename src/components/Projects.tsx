@@ -200,7 +200,6 @@ const projects = [
 //   url: "https://www.wholetherapy.ca/",
 //   category: "Webflow",
 // },
-
   {
     title: "The Bakery",
     description: "Modern Australian bakery website offering pastries, cakes, and catering services with a stylish presentation.",
